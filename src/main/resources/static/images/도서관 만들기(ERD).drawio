@@ -1,0 +1,34 @@
+<mxfile host="Electron" modified="2023-12-30T08:21:26.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="DDLUyTz1KCINJm2_YwdP" version="22.1.11" type="device">
+  <diagram name="페이지-1" id="DWSyQVy8e9d-LPxd01H1">
+    <mxGraphModel dx="1308" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ss2kgo_DPWIRD_TFUZmL-78" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;도서&lt;/font&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2kgo_DPWIRD_TFUZmL-79" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;제목(PK)&lt;br&gt;저자&lt;br&gt;언어&lt;br&gt;출판사&lt;br&gt;등록일&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="ss2kgo_DPWIRD_TFUZmL-78" vertex="1">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2kgo_DPWIRD_TFUZmL-81" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;회원&lt;/font&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="410" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2kgo_DPWIRD_TFUZmL-82" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;이름&lt;br&gt;성별&lt;br&gt;주민번호&lt;br&gt;전화번호&lt;br&gt;주소&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="ss2kgo_DPWIRD_TFUZmL-81" vertex="1">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2kgo_DPWIRD_TFUZmL-85" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;대여&lt;/font&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="280" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2kgo_DPWIRD_TFUZmL-86" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;도서의 식별값(FK)&lt;br&gt;회원의 식별값(FK)&lt;br&gt;반납상태&lt;br&gt;대출일&lt;br&gt;반납일&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="ss2kgo_DPWIRD_TFUZmL-85" vertex="1">
+          <mxGeometry y="50" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PCND4rAP-XSzBySK_tqD-1" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.998;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ss2kgo_DPWIRD_TFUZmL-86" target="ss2kgo_DPWIRD_TFUZmL-82" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="709.7" as="sourcePoint" />
+            <mxPoint x="529" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
